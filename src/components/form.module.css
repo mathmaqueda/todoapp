@@ -1,0 +1,42 @@
+.todoform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todoform input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: 0.4s box-shadow;
+    margin-right: 7px;
+}
+
+.todoform input:focus {
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todoform button {
+    padding: 10px;
+    border-radius: 4px;
+    background: #786054;
+    color: #fff;
+}
+
+.todoform button:hover {
+    background: #594136;
+}
+
+.message {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
